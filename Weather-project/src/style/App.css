@@ -1,0 +1,124 @@
+body {
+  background-color: rgb(133, 133, 133);
+  font-family: "Martian Mono", monospace;
+  margin: 0 auto;
+}
+
+.Temperature {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(74, 127, 187);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 900px;
+  font-size: 32px;
+  border: solid 3px black;
+}
+
+.Icon {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Temp {
+  color: white;
+  font-size: 64px;
+}
+
+.Inputs {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px auto;
+  margin-top: 10px;
+  background-color: rgb(74, 127, 187);
+  border-radius: 10px;
+  width: 900px;
+  border: solid 3px black;
+}
+
+.Input {
+  border-radius: 10px;
+  width: 175px;
+  height: 62px;
+  font-size: 22px;
+  border: solid 3px black;
+  background-color: rgb(170, 170, 170);
+}
+
+.InputButton {
+  margin: 10px;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 28px;
+  background-color: rgb(170, 170, 170);
+  border: solid 3px black;
+}
+
+.TextTemp {
+  font-size: 28px;
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 900px;
+  border: solid 3px black;
+}
+
+.Description {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  background-color: rgb(74, 127, 187);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 22px;
+  border: solid 3px black;
+  width: 250px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(74, 127, 187);
+}
+
+@media (min-width: 300px) and (max-width: 938px) {
+  body {
+    padding: 20px auto;
+  }
+  .Temperature {
+    width: 820px;
+    margin: 20px;
+  }
+  .Inputs {
+    width: 820px;
+    margin: 20px;
+  }
+  p {
+    margin: 20px;
+  }
+  .TextTemp {
+    margin: 20px;
+    width: 820px;
+  }
+  .Card {
+    width: 200px;
+  }
+}/*# sourceMappingURL=App.css.map */
