@@ -2,7 +2,7 @@
 
 Projetinho em React Vite para o Portfólio!!!
 
-cd Weather-project
+cd Weather-project /
 npm run dev
 
 
